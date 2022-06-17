@@ -10,27 +10,29 @@
 </head>
 
 <body>
-    <header class="header">
-        <!--Regresar a la pagina inicial-->
-        <a href="/" class="logo">
-            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
-        </a>
-        <!--Menu-->
-        <nav class="navbar">
-            <ul>
-                <li>Platform</li>
-                <li>Pricing</li>
-                <li>Customers</li>
-                <li>Resources</li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <!--Acciones de usuario-->
-        <div class="actions">
-            <a href="/login.html">Sign in</a>
-            <button>Start free trial</button>
-        </div>
-    </header>
+    <section class="fixed-header">
+        <header class="header">
+            <!--Regresar a la pagina inicial-->
+            <a href="/" class="logo">
+                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
+            </a>
+            <!--Menu-->
+            <nav class="navbar">
+                <ul>
+                    <li>Platform</li>
+                    <li>Pricing</li>
+                    <li>Customers</li>
+                    <li>Resources</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <!--Acciones de usuario-->
+            <div class="actions">
+                <a href="/login.html">Sign in</a>
+                <button>Start free trial</button>
+            </div>
+        </header>
+    </section>
     <section class="main">
         <h1>Build your blog. Build your business</h1>
         <p>
@@ -50,10 +52,37 @@
         </p>
         <img src="capterra.png" width="200" height="200" alt="Imagen Capterra">
     </section>
-    <section>
-        <video src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg" controls>
-
-        </video>
+    <section class="promo">
+        <article class="explanatory-video">
+            <video
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+                controls>
+                <source type="video/mp4"
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
+                <source type="video/webm"
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm">
+            </video>
+            <img src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+                alt="See how it works">
+        </article>
+        <article class="publish">
+            <h3>Publish to your blog in minutes, not hours.</h3>
+            <p>
+                Your blog is your most powerful asset to build,
+                engage, and retain a loyal audience.
+                But you don’t have hours to create content that may or may not work.
+                With Matcha, instantly publish from our library of 10,000+
+                professionally written articles and build your email list faster
+                with our powerful conversion tool.
+            </p>
+            <form>
+                <p>Start publishing today:</p>
+                <div>
+                    <input type="text" placeholder="Enter email" />
+                    <button>Start my trial</button>
+                </div>
+            </form>
+        </article>
     </section>
 </body>
 
