@@ -138,3 +138,47 @@ li {
     margin: 100px auto;
     align-items: center;
 }
+
+.features{
+    display:grid;
+    background-color: #025157;
+    height: 660px;
+    padding: 5% 10%;
+    /*grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr;*/
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.caracteristica{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contenido {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+}
+
+.features .caracteristica .contenido h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .caracteristica .contenido p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .caracteristica .contenido > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
