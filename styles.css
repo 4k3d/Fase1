@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+    font-size: 60px;
     color: #46484c;
     text-align: center;
 }
@@ -181,4 +182,62 @@ li {
 .features .caracteristica .contenido > * {
     margin-bottom: 1rem;
     margin-top: 0;
+}
+
+@media (max-width: 575px){
+    .navbar, .actions {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .main {
+        margin-top: 85px;
+        
+    }
+
+    .publish > form{
+        flex-direction: column;
+    }
+
+    .publish > form > div{
+        height: 50px;
+        margin-top: 10px;
+    }
+
+    .publish > form > div > input{
+        width: 65%;
+    }
+
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+    .publish {
+        margin-top: 10%;
+    }
+
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .features{
+        display: block;
+        height: 1000px;
+
+    }
+
+    
+}
+
+@media (min-width: 576px) and (max-width 767px) {
+
 }
